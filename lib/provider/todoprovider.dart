@@ -13,4 +13,8 @@ class Todoprovider extends ChangeNotifier {
   _data.removeAt(index);
   notifyListeners();
   }
+   void updateTodo(int index, String newTitle) {
+    _data[index].title = newTitle;
+    notifyListeners();
+  }
 }

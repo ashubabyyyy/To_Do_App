@@ -1,4 +1,4 @@
-class Todomodel {
+class Todo {
   String title;
-  Todomodel({required this.title});
+  Todo({required this.title});
 }
